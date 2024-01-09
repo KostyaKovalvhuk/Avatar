@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}   
+
+ul {
+list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1032px;
+    margin: 0 auto;
+}
+
+
+.navigation {
+    display: flex;
+}
+
+.link-list {
+    display: flex;
+}
+
+.avatar-logo {
+    margin-right: 168px;
+}
+
+.linka {
+    margin-right: 38px;
+     color: #94CFFF;
+}
+
+.log-in {
+    margin-left: 212px;
+}
+
+
+
