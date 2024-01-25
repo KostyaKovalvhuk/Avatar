@@ -126,6 +126,10 @@ display: block;
 width: 260px;
 height: 80px;
 text-align: center;
+padding-left:74px ;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-right: 75px;
 }
 
 .log-in {
@@ -160,6 +164,149 @@ color: var(--link-color-text);
 
 .hero-content {
 
+}
+
+.avtor {
+ text-align: center;
+color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.avtor::after {
+content: "";
+background-image: url(../images/beard.png);
+background-repeat: no-repeat;
+display: block;
+width: 400px;
+height:120px     ;
+margin-left: 310px;
+
+}
+
+.sky-people-container {
+
+}
+
+.title2 {
+    color: #0A3853;
+      
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        
+}
+
+.trailer-section {
+    background-image: url(../images/trallier.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 750px;
+}
+
+.trailer {
+    border-radius: 45px 0px;
+        border: 3px solid #26C7EA;
+        background: #0B0E66;
+        color: #26C7EA;
+            text-align: justify;
+            font-family: HeadlandOne;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-top: 25px; ;
+            padding-bottom:  25px; ;
+            padding-left: 17px;
+            padding-right: 18px;
+           
+
+}
+
+.trailer-section-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 330px;
+}
+
+.language-navi {
+    background-image: url(../images/navi-section.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.learn-a-language {
+    color: #141414;
+     
+        font-family: HeadlandOne;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+}
+
+.list-words {
+    display: flex;
+}
+
+.word {
+    color: #141414;
+        text-align: center;
+        font-family: HeadlandOne;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        
+}
+
+.word-special {
+        color: #141414;
+            text-align: center;
+            font-family: HeadlandOne;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+}
+
+.word::after {
+   content: "";
+   background-image: url(../images/aroww-navi.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   display: block;
+   width: 152px;
+   height: 40px;
+}
+
+.word-2 {
+    color: #141414;
+        text-align: center;
+        font-family: HeadlandOne;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        
+}
+
+.word-2-special::after {
+content: "";
+background-image: url(../images/beard-navi.png);
+background-repeat: no-repeat;
+background-size: 100%;
+width: 152px;
+height: 40px;
 }
 
 
