@@ -51,6 +51,13 @@ padding-top: 39px;
    
 }
 
+.switcher {
+}
+
+.switcher-box {
+
+}
+
 .link-list {
     display: flex;
 }
@@ -350,6 +357,29 @@ width: 300px;
 margin-bottom: 24px;
 }
 
+.footer {   
+    background: rgba(43, 74, 97, 0.87);
+        background-image: url(../images/footer.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top: 35px;
+}
+
+.footer-logo {
+    width: 183px;
+        height: 70px;
+        flex-shrink: 0;
+
+}
+
+.e-mail-2::before {
+
+}
+
+.footer-container {
+display: flex;    
+height: 223px;
+}
 
 
 
