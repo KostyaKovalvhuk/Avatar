@@ -38,13 +38,18 @@ background-image: linear-gradient(rgba(43, 74, 97, 0.87),
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    display: flex;
+        align-items: center;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 40px 50px 40px 205px;
     
     
 }
 
 .header-position {
     display: flex;
-padding-top: 39px;
+ align-items: center;
 }
 
 .navigation {
@@ -358,8 +363,8 @@ margin-bottom: 24px;
 }
 
 .footer {   
-    background: rgba(43, 74, 97, 0.87);
-        background-image: url(../images/footer.png);
+    
+        background-image: linear-gradient(to right,rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87) ), url(../images/footer.png);
         background-repeat: no-repeat;
         background-size: 100%;
         padding-top: 35px;
@@ -372,13 +377,18 @@ margin-bottom: 24px;
 
 }
 
-.e-mail-2::before {
-
+.avatar-logo::after {
+content: "";
+background-image: url(../images/footer-line.png);
+background-repeat: no-repeat;
+background-size: 100%;
+display: block;
+width: 2px;
+    height: 153px;
 }
 
 .footer-container {
-display: flex;    
-height: 223px;
+
 }
 
 
