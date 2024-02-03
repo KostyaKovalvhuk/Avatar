@@ -43,7 +43,7 @@ background-image: linear-gradient(rgba(43, 74, 97, 0.87),
         max-width: 1440px;
         margin: 0 auto;
         padding: 40px 50px 40px 205px;
-    
+    border-bottom: 3px solid #fff;
     
 }
 
