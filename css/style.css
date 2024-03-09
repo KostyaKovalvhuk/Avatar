@@ -64,10 +64,15 @@ background-image: linear-gradient(rgba(43, 74, 97, 0.87),
 display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 107px;
 }
 
 .change-lang {
     color: #FFF;
+    font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+
 }
 
 .link-clan-uk {
@@ -102,7 +107,10 @@ display: flex;
 
 .linka {
     margin-right: 38px;
-     color: #94CFFF;
+    font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #94cfff;
 }
 
 .log-in {
@@ -300,6 +308,8 @@ margin-left: 310px;
     height: 700px;
 max-width: 1440px;
 margin: 0 auto;
+padding-top: 50px;
+padding-bottom: 57px;
 }
 
 .learn-a-language {
@@ -309,13 +319,16 @@ margin: 0 auto;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
-        line-height: normal;
+        line-height: 1.2;
         text-align: center;
+        margin-bottom: 45px ;
 }
 
 .list-words {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 25px   ;
+    column-gap: 35px;
 }
 
 .word {
@@ -359,16 +372,13 @@ margin: 0 auto;
 }
 
 .word-2 {
- ]
     color: #141414;
         text-align: center;
         font-family: HeadlandOne;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        
-        
+        line-height: 24px;    
 }
 
 .word-2-special {
@@ -399,13 +409,12 @@ margin-top: 30px;
 }
 
 .words {
-    margin-right: 36px;
     padding-bottom: 36px;
    
     background: rgba(255, 255, 255, 0.70);
 
-width: 300px;
-margin-bottom: 24px;
+flex-basis: calc((100% - 70px ) / 3);
+
 }
 
 .balance-of-life {
@@ -487,5 +496,8 @@ width: 2px;
         margin-left: 465px;
 }
 
+.e-mail+.e-mail {
+margin-top: 15px;
+}
 
 
